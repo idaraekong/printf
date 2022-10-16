@@ -1,4 +1,4 @@
-.TH man 3 "19 April 2022" "ALX SE" "_PRINTF"
+.TH man 3 "October 16, 2022" "ALX SE" "_PRINTF"
 .SH NAME
 .B _printf
 - formatted output conversion with number of bytes printed as return
@@ -100,5 +100,4 @@ That way, _putchar only needs to call write one time, passing to it the whole bu
 .SH BUGS
 _printf does not currently work on non-custom conversion modifiers for field width, precision and some flag characters such as ('0', '-'). For example, _printf(\(dq%hx\(dq) will not produce the same output as the call to the standard library printf.
 .SH AUTHORS
-Feyitimi Victor
-Ekaette Augustina Essien
+ODJOUOYE Adiyo Fouad
